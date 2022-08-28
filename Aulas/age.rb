@@ -14,12 +14,13 @@ loop do
         print "Digite o ano atual"
         ano_atual = gets.chomp.to_i
         idade = ano_atual - ano_nascimento
-        resultado = "Quem nasceu no ano de #{ano_nascimento}, tem #{age} no ano de #{ano_atual}"
+        resultado = "Quem nasceu no ano de #{ano_nascimento}, tem #{idade} no ano de #{ano_atual}"
         puts "#{resultado}"
     elsif opcao == 0
         break
     else
         resultado = "Opção inválida"
         puts "#{resultado}"
-
+    end
+    system "clear"
 end

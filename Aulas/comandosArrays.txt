@@ -1,0 +1,21 @@
+
+- INSERIR
+Inserir como ultimo valor no array = estados.push("Teste")
+Inserir como primeiro valor no array = estados.push(0 , "Teste")
+Atualizar = estados[1] = "Teste"
+
+- SELECIONAR
+
+Retornar = estados[2]
+Retornar o primeiro = estados.first
+Retornar o ultimo = estados.last
+Contagem do array = estados.count
+Tamanho do array = estados.length
+Descobrir se o array está vazio = estados.empty?
+Verificar se um item existe no array = estados.iclude?("Teste")
+
+- REMOVER
+
+Removendo um item pelo seu elemento = estados.delete_at(1)
+Excluindoo ultimo item = estados.pop
+Excluindoo o primeiro item = estados.shift

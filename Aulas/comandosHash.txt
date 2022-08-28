@@ -1,0 +1,18 @@
+- NOVO HASH:(IGUAL A UM ARRAY MULTIDIMENSIONAL PHP)
+Criar = capitais = Hash.new
+ou
+capitais = {acre = "Rio branco", sao_paulo = "São paulo"}
+
+- ADICIONANDO
+Adicionar a uma chave = capitais[:minas_gerais] = "Belo horizonte"
+
+- SELECIONANDO:
+selecionando apenas as chaves = capitais.keys
+selecionando apenas os valores = capitais.values
+
+- EXCLUINDO:
+excluir = capitais.delete[:acre]
+
+- OBTER INFORMAÇÕES:
+tamanho do hash = capitais.size
+verificar se o hash está vazio = capitais.empty?
