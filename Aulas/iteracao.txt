@@ -1,0 +1,4 @@
+For: Usado para percorrer uma coleção de elementos
+Times: Executa uma repetição por um determinado número de vezes
+While: Instrução que repete um bolco de codigo enquanto sua condição for verdadeira
+Do/While - loop: Cria um laço de repetição que só é parado quando uma instrução break for verdadeira
