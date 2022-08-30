@@ -9,6 +9,7 @@ Adicionar a uma chave = capitais[:minas_gerais] = "Belo horizonte"
 - SELECIONANDO:
 selecionando apenas as chaves = capitais.keys
 selecionando apenas os valores = capitais.values
+maior valor = capitais.values.max
 
 - EXCLUINDO:
 excluir = capitais.delete[:acre]
